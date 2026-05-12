@@ -170,6 +170,11 @@ body {
     font-weight: 600;
 }
 
+.button:hover {
+    background-color: rgb(230, 109, 109);
+    color: white;
+}
+
 .skills {
     display: flex;
     width: 100%;
