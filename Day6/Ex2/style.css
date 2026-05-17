@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: grey;;
+}
+
+.area1 {
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    height: 340px;
+
+    img {
+        position: absolute;
+        left: 0px;
+        width: 450px;
+        height: 340px;
+    }
+
+    .img1 {
+        background: rgba(130, 133, 178, 0.3);
+        display: inline-block;
+        width: 450px;
+        height: 340px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .title {
+        font-size: 32px;
+        color: white;
+        position: absolute;
+        top: 300px;
+        left: 40px;
+        background: rgba(255, 255, 255, 0);
+        b{
+            background: rgba(255, 255, 255, 0);
+        }
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        visibility: hidden;
+        top: 290px;
+        left: 40px;
+        background: rgba(255, 255, 255, 0);
+    }
+}
+
+.area1:hover {
+    .img1 {
+        background: rgba(130, 133, 178, 0);
+    }
+
+    img {
+        width: 480px;
+        left: -30px;
+    }
+
+    .title {
+        top: 260px;
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        visibility: visible;
+    }
+}
+
+.area2 {
+    position: relative;
+    display: inline-block;
+
+    img {
+        width: 450px;
+        height: 340px;
+    }
+
+    .img1 {
+        background: rgba(130, 133, 178, 0);
+        display: inline-block;
+        width: 450px;
+        height: 340px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .title {
+        font-size: 32px;
+        color: white;
+        position: absolute;
+        top: 220px;
+        left: 40px;
+        background: rgba(255, 255, 255, 0);
+        b{
+            background: rgba(255, 255, 255, 0);
+        }
+    }
+
+    .content {
+        font-size: 32px;;
+        color: white;
+        position: absolute;
+        visibility: hidden;
+        top: 280px;
+        left: 300px;
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .white{
+        background: white;
+        display:inline-block;
+        width: 450px;
+        height: 8px;
+        visibility: hidden;
+        position: absolute;
+        top: 332px;
+        left: 0px;
+
+    }
+}
+
+.area2:hover {
+
+    .img1 {
+        background: rgba(213, 167, 106, 0.5);
+    }
+
+    .title {
+        top: 280px;
+    }
+
+    .content {
+        color: white;
+        position: absolute;
+        visibility: visible;
+    }
+
+    .white{
+        visibility: visible;
+    }
+}
